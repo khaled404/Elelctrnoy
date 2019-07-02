@@ -1,0 +1,1 @@
+$(function(){$(window).on("scroll",function(){$(window).scrollTop()>=$("header").height()/2?$(".navbar").addClass("scrolled"):$(".navbar").removeClass("scrolled")}),$("body").scrollspy({target:".navbar",offset:80})});
